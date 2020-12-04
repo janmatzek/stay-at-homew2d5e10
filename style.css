@@ -1,0 +1,53 @@
+.wrapper {
+    width: 600px;
+    background-color: #7cdfc3;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+    padding-bottom: 75px;
+}
+.listArea{
+    background-color: #f7f7f7;
+    width: 350px;
+    margin-top: 0px;
+    padding-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1{
+    color: #b8b8b8;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 46px;
+}
+
+.input {
+    width: 200px;
+    border: solid 1.5px #b9b9b9;
+    border-radius: 2px;
+    height: 30px;
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+#item {
+    margin: none;
+    height: 90%;
+    border: none;
+    width: 162px;
+}
+#add {
+    height: 100%;
+    margin: 0px;
+    border-radius: 0px;
+    background-color: #d070e2;
+    box-shadow: none;
+    border: none;
+    color: white;
+}
