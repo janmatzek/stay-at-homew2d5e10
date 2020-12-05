@@ -7,13 +7,14 @@
     padding-top: 50px;
     padding-bottom: 75px;
 }
-.listArea{
+.appArea{
     background-color: #f7f7f7;
     width: 350px;
     margin-top: 0px;
     padding-top: 10px;
     margin-left: auto;
     margin-right: auto;
+    padding-bottom: 25px;
 }
 h1{
     color: #b8b8b8;
@@ -22,9 +23,13 @@ h1{
     font-family: 'Roboto', sans-serif;
     font-size: 46px;
 }
-
+.listArea {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
 .input {
-    width: 200px;
+    width: 250px;
     border: solid 1.5px #b9b9b9;
     border-radius: 2px;
     height: 30px;
@@ -35,12 +40,18 @@ h1{
     align-items: center;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 15px;
 }
 #item {
     margin: none;
     height: 90%;
     border: none;
-    width: 162px;
+    width: 85%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    list-style-type: none;
+    color: #b8b8b8;
+    padding-left: 10px;
 }
 #add {
     height: 100%;
@@ -50,4 +61,16 @@ h1{
     box-shadow: none;
     border: none;
     color: white;
+    width: 14%;
+}
+ul {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    list-style-type: none;
+    color: #b8b8b8;
+    margin: Opx;
+    padding: 0px;
+    margin-left: 15px;
+    line-height: 180%;
+    text-transform: capitalize;
 }
